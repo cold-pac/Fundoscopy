@@ -1,0 +1,17 @@
+html, body {
+	height: 100%; 
+	width: 100%; 
+	margin: 0; 
+}
+#masterContainer {
+	height: 100%;  
+	width: 100%;  
+	display: grid; 
+	grid-template-columns: 1fr 7fr; 	
+}
+#navBar {
+	
+}
+#content {
+	 
+}

@@ -8,3 +8,7 @@ Sources:
 </ul>
 
 Format based on AHK documentation. 
+<ul>
+  <li> https://www.autohotkey.com/docs/AutoHotkey.htm </li> 
+  <li> https://docs.python.org/3.8/whatsnew/3.8.html </li> 
+</ul> 

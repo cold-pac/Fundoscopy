@@ -3,20 +3,45 @@
 <head>
 <title>Fundoscopy</title>
 <link rel = "stylesheet" href = "basic.css"> 
+
+<!-- ReactJS, using babbel transpiler and JSX --> 
+<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
 </head>
 <body>
+
 <div id = "masterContainer">
 	<div id = "navBar"> <!-- make this minimisable (look at AHK and python documentation for inspiration)  --> 
-		<ul>
-			<li>Introduction + Technique</li>
-			<li>Normal Fundus</li> 
-		</ul>
+		<span id = "introduction">Introduction + Technique</span>
+		<span id = "normal_fundus">Normal Fundus</span> 
 	</div> 
 	<div id = "content">
-		<div id = "learn">
-			The macula is located lateral to the optic nerve/disk. Fovea = concavity in the center of the macula measuring 1.5 mm --> high spatial resolution and colour vision. 
-		</div> 
+		 
 	</div> 
 </div> 
 </body>
+
+<script type = "text/babel">
+	let introduction = (
+		<div> 
+			<div>Correct technique: </div> 
+		</div>
+	);
+	
+	document.getElementById("introduction").onclick = function() {ReactDOM.render(introduction, document.getElementById("content"))};
+	
+	
+	let normal_fundus = (
+		<div> 
+			<div id = "learn">
+			The macula is located lateral to the optic nerve/disk. Fovea = concavity in the center of the macula measuring 1.5 mm --> high spatial resolution and colour vision. 
+			</div>
+		</div> 
+	);
+	
+	document.getElementById("normal_fundus").onclick = function() {ReactDOM.render(normal_fundus, document.getElementById("content"));}	
+</script> 
+
 </html>

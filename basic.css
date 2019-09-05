@@ -3,14 +3,25 @@ html, body {
 	width: 100%; 
 	margin: 0; 
 }
-#masterContainer {
+#masterContainer {n
 	height: 100%;  
 	width: 100%;  
 	display: grid; 
 	grid-template-columns: 1fr 7fr; 	
 }
 #navBar {
-	
+	background: grey; 
+	padding: 30px;  
+	display: flex; 
+	flex-direction: column; 
+	justify-content: space-around; 
+	height: 100vh; 
+}
+#navBar span{
+	cursor: pointer; 
+}
+#navBar span:hover{
+	text-decoration: underline; 
 }
 #content {
 	 

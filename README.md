@@ -8,8 +8,9 @@ Sources:
   <li><a href = "https://www.aci.health.nsw.gov.au/__data/assets/pdf_file/0013/155011/eye_manual.pdf" target = "_blank"><i>EYE EMERGENCY MANUAL</i></a></li>
 </ul>
 
-Format based on AHK documentation. 
+Format based on AHK documentation. Want it to be like the Australian Injectible Drugs database (i.e. searchable) eventually
 <ul>
   <li> https://www.autohotkey.com/docs/AutoHotkey.htm </li> 
   <li> https://docs.python.org/3.8/whatsnew/3.8.html </li> 
+  <li> https://aidh.hcn.com.au/browse/about_aidh </li>
 </ul> 
